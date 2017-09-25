@@ -1,0 +1,34 @@
+.App {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 99%;
+}
+.paperStyle {
+	height: auto;
+  min-height: 30px;
+  width: 100%;
+  max-width: 360px;
+  text-align: center;
+  display: block;
+  margin: 2px auto;
+  line-height: 30px;
+}
+.sliderContainer {
+	width: 80%;
+	margin: 6px auto;
+}
+.redSlider>div>div>div:first-child, 
+.redSlider>div>div>div:last-child {
+	background-color: red !important;
+}
+.greenSlider>div>div>div:first-child, 
+.greenSlider>div>div>div:last-child {
+	background-color: green !important;
+}
+.blueSlider>div>div>div:first-child, 
+.blueSlider>div>div>div:last-child {
+	background-color: blue !important;
+}
